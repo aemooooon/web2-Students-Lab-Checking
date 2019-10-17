@@ -1,0 +1,84 @@
+h2 {
+  color: #000;
+}
+table,
+td,
+th {
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+  padding: 1rem 1rem;
+}
+table {
+  width: 100%;
+}
+caption {
+  font-size: 1rem;
+  padding: 1rem;
+}
+td {
+  padding: 1rem 1rem;
+  text-align: left;
+  color: #000;
+}
+th {
+  background-color: #35424a;
+  height: 2rem;
+  color: #ffffff;
+}
+
+tr {
+  background-color: #fff;
+}
+tr:nth-child(even) {
+  background-color: #fcf8e3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Set height of body and the document to 100% */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #999;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 16.5%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {
+  background-color: #999;
+}
+#News {
+  background-color: #999;
+}
+#Contact {
+  background-color: #999;
+}
+#About {
+  background-color: #999;
+}

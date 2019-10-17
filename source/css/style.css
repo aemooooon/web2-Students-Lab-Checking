@@ -1,0 +1,261 @@
+.logo-img {
+  margin: 20px auto;
+}
+
+.nav-item {
+  padding: 0px 25px;
+}
+.nav-item:hover {
+  background-color: #00a651;
+}
+.nav-link {
+  font-size: 1.6rem;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+body {
+  /* background-image: url('https://source.unsplash.com/1920x1080/?student');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: white; */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* cell start */
+.table-position {
+  margin: auto;
+  text-align: center;
+}
+
+.easy-hard {
+  color: #868e96;
+  font-size: 1.75rem;
+}
+.easy-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+table {
+  border-collapse: collapse;
+}
+.table_bg {
+  background-image: url('../images/bg_1.png');
+  background-repeat: no-repeat;
+}
+
+.each-td {
+  width: 32px;
+  height: 32px;
+}
+
+label,
+input {
+  margin: 0px;
+  padding: 0px;
+}
+
+.qtable td {
+  border: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+input.radio {
+  cursor: pointer;
+  visibility: hidden;
+}
+
+td.axis {
+  background-color: #909090;
+  width: 3px;
+  height: 3px;
+  border: 0px solid #909090;
+}
+
+.cell {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background: none;
+  background-image: url('../images/success_small_gray.png');
+}
+
+.cell:hover {
+  background-image: url('../images/success_small.png');
+}
+
+.ct {
+  caption-side: top;
+}
+.cb {
+  caption-side: bottom;
+}
+
+.btn-area {
+  width: 100%;
+  text-align: center;
+}
+
+/* cell end */
+
+.bg_white {
+  background-color: white;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-green {
+  color: greenyellow;
+}
+.color-red {
+  color: red;
+}
+
+.colorpink {
+  color: pink;
+  font-size: 1.6rem;
+}
+.font-16 {
+  font-size: 1.6rem;
+  color: #0081c3;
+}
+.shadow {
+  box-shadow: 1px 2px 2px 3px gray;
+}
+.hand {
+  cursor: pointer;
+}
+
+.font-g {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mytitle p{
+  margin: 0px auto;
+  font-size: 3rem;
+}
+
+.lab-container {
+  width: 61px;
+  height: 61px;
+  float: left;
+  background-image: url('../images/cicle_gray.png');
+  text-align: center;
+  overflow: hidden;
+  padding-top: 1.2rem;
+  margin: 5px;
+}
+
+.lab-container span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+  color: #f9f9f9;
+}
+
+.lab-container-a {
+  width: 61px;
+  height: 61px;
+  float: left;
+  background-image: url('../images/cicle_green.png');
+  text-align: center;
+  overflow: hidden;
+  padding-top: 1.2rem;
+  margin: 5px;
+}
+
+.lab-container-a:hover {
+  cursor: pointer;
+}
+
+.lab-container-a span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+  color: #f9f9f9;
+}
+
+.rightside {
+  background-color: #f9f9f9;
+  padding-left: 50px;
+}
+
+.welcome {
+  margin: 20px;
+  text-align: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.sl-size {
+  width: 200px;
+  height: 35px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  font-size: 1rem;
+  width: 25%;
+  /* border-radius: 100%; */
+  margin: 30px auto;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  display: none;
+}
+
+.dblogo {
+  margin: 10px auto;
+  float: left;
+}
+
+.daoying {
+  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent
+        37%, rgba(255, 255, 255, 0.2));
+  line-height: 1;
+  font-size: 2.1rem;
+}
+
+.chart-size {
+  width: 600px;
+  height: 300px;
+}
+
+.emoj {
+  width: 100%;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.emojdiv {
+  margin: auto;
+}
+.emoj img {
+  margin: auto;
+  width: 61px;
+  height: 57px;
+  margin-bottom: 20px;
+}
